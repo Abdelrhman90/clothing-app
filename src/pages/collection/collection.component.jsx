@@ -7,7 +7,7 @@ import CollectionItem from "../../components/collection-item/collection-item.com
 const CollectionPage = ({ collection }) => {
   const { items, title } = collection;
   return (
-    <div class="collection-page">
+    <div className="collection-page">
       <h2 className="title">{title}</h2>
       <div className="items">
         {items.map((item) => (
